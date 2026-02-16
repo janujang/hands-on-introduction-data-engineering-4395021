@@ -1,0 +1,100 @@
+2026-02-16 21:37:33,482 INFO - Starting the scheduler
+2026-02-16 21:37:33,488 INFO - Processing each file at most -1 times
+2026-02-16 21:37:33,500 INFO - Launched DagFileProcessorManager with pid: 5579
+2026-02-16 21:37:33,504 INFO - Resetting orphaned tasks for active dag runs
+2026-02-16 21:37:33,509 INFO - Configured default timezone Timezone('UTC')
+2026-02-16 21:37:42,270 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Cache-Control: max-age=0
+Referer: https://bug-free-broccoli-97rg49wq757fx45j.github.dev/
+X-Request-Id: 802400dc7417a292e8d215571317c875
+X-Real-Ip: 174.93.90.138
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Chromium";v="145", "Not:A-Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "macOS"
+Priority: u=0, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: bug-free-broccoli-97rg49wq757fx45j-8793.app.github.dev
+X-Forwarded-For: 174.93.90.138
+Proxy-Connection: Keep-Alive
+
+.
+2026-02-16 21:37:42,271 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2026-02-16 21:37:42,469 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+Referer: https://bug-free-broccoli-97rg49wq757fx45j-8793.app.github.dev/
+X-Request-Id: 5909fad888a28263faa8af14ec38ecec
+X-Real-Ip: 174.93.90.138
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "macOS"
+Sec-Ch-Ua: "Chromium";v="145", "Not:A-Brand";v="99"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Forwarded-Proto: https
+X-Forwarded-Host: bug-free-broccoli-97rg49wq757fx45j-8793.app.github.dev
+X-Forwarded-For: 174.93.90.138
+Proxy-Connection: Keep-Alive
+
+.
+2026-02-16 21:37:42,469 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2026-02-16 21:38:43,352 INFO - Exiting gracefully upon receiving signal 15
+2026-02-16 21:38:44,358 INFO - Sending Signals.SIGTERM to group 5579. PIDs of all processes in the group: [5579]
+2026-02-16 21:38:44,358 INFO - Sending the signal Signals.SIGTERM to group 5579
+2026-02-16 21:38:44,573 INFO - Process psutil.Process(pid=5579, status='terminated', exitcode=0, started='21:37:33') (5579) terminated with exit code 0
+2026-02-16 21:38:44,575 INFO - Sending Signals.SIGTERM to group 5579. PIDs of all processes in the group: []
+2026-02-16 21:38:44,575 INFO - Sending the signal Signals.SIGTERM to group 5579
+2026-02-16 21:38:44,576 INFO - Sending the signal Signals.SIGTERM to process 5579 as process group is missing.
+2026-02-16 21:38:44,576 INFO - Exited execute loop
+2026-02-16 21:38:52,581 INFO - Starting the scheduler
+2026-02-16 21:38:52,582 INFO - Processing each file at most -1 times
+2026-02-16 21:38:52,593 INFO - Launched DagFileProcessorManager with pid: 6300
+2026-02-16 21:38:52,595 INFO - Resetting orphaned tasks for active dag runs
+2026-02-16 21:38:52,600 INFO - Configured default timezone Timezone('UTC')
+2026-02-16 21:39:18,934 INFO - 1 tasks up for execution:
+	<TaskInstance: extract_dag.extract_task manual__2026-02-16T21:39:17.022044+00:00 [scheduled]>
+2026-02-16 21:39:18,934 INFO - DAG extract_dag has 0/16 running and queued tasks
+2026-02-16 21:39:18,934 INFO - Setting the following tasks to queued state:
+	<TaskInstance: extract_dag.extract_task manual__2026-02-16T21:39:17.022044+00:00 [scheduled]>
+2026-02-16 21:39:18,936 INFO - Sending TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2026-02-16T21:39:17.022044+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2026-02-16 21:39:18,936 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2026-02-16T21:39:17.022044+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2026-02-16 21:39:18,940 INFO - Executing command: ['airflow', 'tasks', 'run', 'extract_dag', 'extract_task', 'manual__2026-02-16T21:39:17.022044+00:00', '--local', '--subdir', 'DAGS_FOLDER/extract_dag.py']
+2026-02-16 21:39:20,710 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='extract_dag', task_id='extract_task', run_id='manual__2026-02-16T21:39:17.022044+00:00', try_number=1, map_index=-1)
+2026-02-16 21:39:20,716 INFO - TaskInstance Finished: dag_id=extract_dag, task_id=extract_task, run_id=manual__2026-02-16T21:39:17.022044+00:00, map_index=-1, run_start_date=2026-02-16 21:39:20.165568+00:00, run_end_date=2026-02-16 21:39:20.434781+00:00, run_duration=0.269213, state=success, executor_state=success, try_number=1, max_tries=0, job_id=3, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2026-02-16 21:39:18.935194+00:00, queued_by_job_id=2, pid=6489
+2026-02-16 21:39:20,750 INFO - Marking run <DagRun extract_dag @ 2026-02-16 21:39:17.022044+00:00: manual__2026-02-16T21:39:17.022044+00:00, state:running, queued_at: 2026-02-16 21:39:17.038697+00:00. externally triggered: True> successful
+2026-02-16 21:39:20,751 INFO - DagRun Finished: dag_id=extract_dag, execution_date=2026-02-16 21:39:17.022044+00:00, run_id=manual__2026-02-16T21:39:17.022044+00:00, run_start_date=2026-02-16 21:39:18.908552+00:00, run_end_date=2026-02-16 21:39:20.751326+00:00, run_duration=1.842774, state=success, external_trigger=True, run_type=manual, data_interval_start=2026-02-16 21:39:17.022044+00:00, data_interval_end=2026-02-16 21:39:17.022044+00:00, dag_hash=9b10a11f7eacb0b4e3b0fe8e8d1bbc4b
+2026-02-16 21:43:52,675 INFO - Resetting orphaned tasks for active dag runs

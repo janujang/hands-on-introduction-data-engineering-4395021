@@ -1,0 +1,12 @@
+[2026-02-16T21:38:09.490+0000] {processor.py:157} INFO - Started process (PID=5847) to work on /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2026-02-16T21:38:09.490+0000] {processor.py:826} INFO - Processing file /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py for tasks to queue
+[2026-02-16T21:38:09.491+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.490+0000] {dagbag.py:541} INFO - Filling up the DagBag from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2026-02-16T21:38:09.497+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dataset_consumes_1_never_scheduled', 'dataset_produces_2', 'dataset_consumes_1', 'dataset_consumes_unknown_never_scheduled', 'dataset_consumes_1_and_2', 'dataset_produces_1']) retrieved from /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py
+[2026-02-16T21:38:09.519+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.519+0000] {dag.py:2742} INFO - Sync 6 DAGs
+[2026-02-16T21:38:09.533+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.533+0000] {dag.py:3504} INFO - Setting next_dagrun for dataset_consumes_1 to None, run_after=None
+[2026-02-16T21:38:09.535+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.535+0000] {dag.py:3504} INFO - Setting next_dagrun for dataset_consumes_1_and_2 to None, run_after=None
+[2026-02-16T21:38:09.535+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.535+0000] {dag.py:3504} INFO - Setting next_dagrun for dataset_consumes_1_never_scheduled to None, run_after=None
+[2026-02-16T21:38:09.536+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.536+0000] {dag.py:3504} INFO - Setting next_dagrun for dataset_consumes_unknown_never_scheduled to None, run_after=None
+[2026-02-16T21:38:09.538+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.538+0000] {dag.py:3504} INFO - Setting next_dagrun for dataset_produces_1 to 2026-02-15T00:00:00+00:00, run_after=2026-02-16T00:00:00+00:00
+[2026-02-16T21:38:09.539+0000] {logging_mixin.py:150} INFO - [2026-02-16T21:38:09.539+0000] {dag.py:3504} INFO - Setting next_dagrun for dataset_produces_2 to None, run_after=None
+[2026-02-16T21:38:09.561+0000] {processor.py:179} INFO - Processing /home/vscode/.local/lib/python3.10/site-packages/airflow/example_dags/example_datasets.py took 0.073 seconds
